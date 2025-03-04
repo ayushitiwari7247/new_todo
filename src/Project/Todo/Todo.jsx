@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 import "./Todo.css";
-import { TodoForm } from "./Todo form";
+import { TodoForm } from "./TodoForm";
 import { TodoList } from "./TodoList";
 import { TodoDate } from "./TodoDate";
 import { getLocalStoregeTodoData, setLocalStoregeTodoData } from "./Todolocalstorege";

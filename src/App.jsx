@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-    <BrowserRouter basename="/">
+    <BrowserRouter basename="basename={import.meta.env.BASE_URL}">
       <Todo/>
     </BrowserRouter>
     </>
